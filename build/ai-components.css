@@ -1,8 +1,10 @@
 /**
+ * @deprecated Theese styles are just legacy relics from the past, important stuff is in custom-elements instead
+ * 
  * Note: This is the style of the interactive components in the page
  */
 
-/* https://webgpt.cz/_next/static/css/4767f6a5d0cbb3eb.css */
+/* https://webgpt-git-feature-custom-html-components-hejny.vercel.app/_next/static/css/97a918e96ec00793.css */
 
 .ai-gallery {
     --on-row: 6;
@@ -79,7 +81,7 @@
 }
 
 .ai-gallery .placeholder {
-    overflow: hidden;
+    overflow: clip;
     background: #000;
     position: relative;
     animation-duration: 1.7s;

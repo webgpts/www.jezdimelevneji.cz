@@ -4,7 +4,7 @@
 > Fuel Factor X - Získejte maximum z paliva!
 
 
-<a href="mailto:jiri-machovsky@centrum.cz" class="button">Koupit nyní</a>
+<a is="call-to-action" href="#produkty">Koupit nyní</a>
 
 
 *Nejlepší způsob, jak ušetřit a zároveň zlepšit výkon motoru 🏁* 
@@ -54,6 +54,90 @@ Tření motoru může způsobovat opotřebení a zvýšenou spotřebu paliva. S 
 
 Fuel Factor X obsahuje vysoce kvalitní maziva, která pomáhají chránit Váš motor a zlepšovat jeho výkon.
 
+## Produkty
+
+<product-list>
+    <product-item>
+        <product-image>
+            <img
+                src="/images/lg-gy0ol6e-dds-khv-xv7ia-mv-iod-xz-zfr-bp-hg5m6eza.webp"
+            />
+        </product-image>
+        <product-name>7,4ml Sáček</product-name>
+        <product-price>145 Kč</product-price>
+        <product-actions>
+            <a
+                is="call-to-action"
+                title="Rád bych objednal Fuel Factor X / 7,4ml - 1 kus"
+            >
+                Objednat
+            </a>
+        </product-actions>
+    </product-item>
+    <product-item>
+        <product-image>
+            <img
+                src="/images/skas-a5xc435fyukf5xsa3s-lm-b1hs-o7ha-urflb0b0.webp"
+            />
+        </product-image>
+        <product-name>120ml Lahev</product-name>
+        <product-price>1699 Kč</product-price>
+        <product-actions>
+            <a
+                is="call-to-action"
+                title="Rád bych objednal Fuel Factor X lahev 120ml - 1 kus"
+            >
+                Objednat
+            </a>
+        </product-actions>
+    </product-item>
+    <product-item>
+        <product-image>
+          <img
+                src="/images/7vvq-souyu-ysc-mlljte1um-gt5kpe0x-vc-x8n9el-eb-b.webp"
+            />
+        </product-image>
+        <product-name>18,9l Barel</product-name>
+        <product-price>112 989 Kč</product-price>
+        <product-actions>
+            <a
+                is="call-to-action"
+                title="Rád bych objednal Fuel Factor X / bal. 18,9l - 1 kus"
+            >
+                Objednat
+            </a>
+        </product-actions>
+    </product-item>
+</product-list>
+
+
 ## Objednejte si Fuel Factor X ještě dnes!
 
 S Fuel Factor X můžete ušetřit na provozních nákladech a zároveň dosáhnout maximálního výkonu Vašeho motoru. Vyzkoušejte náš produkt ještě dnes a užijte si nejen úsporu peněz, ale i bezstarostnou jízdu. Nyní můžete objednat Fuel Factor X jednoduše přes naši webovou stránku a už během pár dní si užívat výhod našeho produktu. Objednejte si Fuel Factor X ještě dnes a staňte se součástí naší spokojené zákaznické základny!
+
+
+<form is="contact-form">
+    <label>
+        <p>Vaše jméno:</p>
+        <input name="name" placeholder="Jan Novák" required />
+    </label>
+    <label>
+        <p>Váš email:</p>
+        <input name="email" placeholder="jan.novak@seznam.cz" type="email" required />
+    </label>
+    <label>
+        <p>Váš telefon:</p>
+        <input name="phone" placeholder="+420 123 456 789" type="tel" />
+    </label>
+    <label>
+        <p>Vaše adresa:</p>
+        <input name="address" placeholder="Rychlá 42, Pardubice, 533 33" required />
+    </label>
+    <label>
+        <p>Vaše objednávka:</p>
+        <textarea name="message" placeholder="Zde napište svou objednávku" required></textarea>
+    </label>
+    <label>
+        <input type="submit" value="Odeslat" />
+    </label>
+</form>

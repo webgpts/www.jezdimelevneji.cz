@@ -59,14 +59,14 @@
 .WallpaperContent_Article__Exvi4 h2 {
     font-size: 29px;
     padding: 0;
-    border-bottom: 2px solid var(--palette-2);
+    border-bottom: 2px solid var(--palette-3);
 }
 
 .WallpaperContent_Article__Exvi4 h3 {
     font-size: 25px;
     margin-top: 40px;
     padding: 0;
-    border-bottom: 1.5px solid var(--palette-2);
+    border-bottom: 1.5px solid var(--palette-3);
 }
 
 .WallpaperContent_Article__Exvi4 p {
@@ -102,21 +102,22 @@
 .WallpaperContent_Article__Exvi4 hr {
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: var(--palette-2);
+    background-color: var(--palette-3);
     height: 2px;
     border: none;
     outline: none;
 }
 
 .WallpaperContent_Article__Exvi4 blockquote,
+.WallpaperContent_Article__Exvi4 form,
 .WallpaperContent_Article__Exvi4 iframe {
     display: block;
-    margin: 20px;
+    margin-top: 45px;
 }
 
 .WallpaperContent_Article__Exvi4 blockquote {
     font-size: 1.2em;
-    border: 2px solid var(--palette-2);
+    border: 2px solid var(--palette-3);
     padding: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
