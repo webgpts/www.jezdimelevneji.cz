@@ -1,5 +1,5 @@
 window.CUSTOM_ELEMENTS_ENVIRONMENT = {
-    author: '43dace16-cc58-4564-b844-b0826efd82fc',
+    author: 'dede6dbf-0ab0-4f6d-ab59-ba75ad9488a6',
     homeUrl: 'https://www.jezdimelevneji.cz/',
     webgptUrl: 'https://webgpt-git-feature-custom-html-components-hejny.vercel.app/',
 };
